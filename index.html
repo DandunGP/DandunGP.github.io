@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Dandun Gigih Prakoso — Backend Developer specializing in Go, Node.js, PHP & cloud-native systems. Building scalable APIs for fast-growing startups." />
+  <meta name="keywords"
+    content="backend developer, Go, Golang, Node.js, Laravel, Docker, AWS, PostgreSQL, API, Indonesia" />
+  <meta name="author" content="Dandun Gigih Prakoso" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Dandun Gigih Prakoso — Backend Developer" />
+  <meta property="og:description" content="Building scalable, production-ready systems for fast-growing startups." />
+  <meta property="og:type" content="website" />
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Typography: Outfit + Inter + JetBrains Mono -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Dandun Gigih Prakoso — Backend Developer</title>
+</head>
+
+<body>
+
+  <!-- =====================
+       HEADER / NAVBAR
+  ===================== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="#hero" class="nav__logo" aria-label="Back to top">
+        <span class="nav__logo-text">dgp<span class="nav__logo-dot">.</span></span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="navMenu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu" role="list">
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#stack" class="nav__link">Stack</a></li>
+        <li><a href="#monitor" class="nav__link">System</a></li>
+        <li>
+          <a href="mailto:dandungigihprakoso@gmail.com" class="nav__link nav__link--cta" aria-label="Send me an email">
+            Hire Me
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+
+    <!-- =====================
+         SECTION 1 — HERO
+    ===================== -->
+    <section id="hero" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">
+            <span class="status-dot" aria-hidden="true"></span>
+            Available for opportunities
+          </p>
+
+          <h1 class="hero__name" id="hero-heading">Dandun Gigih Prakoso</h1>
+
+          <p class="hero__role">Backend Developer</p>
+
+          <p class="hero__tagline">
+            Architecting robust backend systems and scalable APIs.<br />
+            Specializing in high-performance cloud-native solutions.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View My Work</a>
+            <a href="https://github.com/DandunGP" target="_blank" rel="noopener noreferrer" class="btn btn--ghost"
+              aria-label="Visit my GitHub profile">
+              GitHub
+              <svg class="btn__icon" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M1 13L13 1M13 1H5M13 1V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Stats — Proof of Work -->
+        <div class="hero__stats" aria-label="Key statistics">
+          <article class="stat-card">
+            <span class="stat-card__value" aria-label="Two years plus experience">2+</span>
+            <span class="stat-card__label">Years Exp.</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-card__value" aria-label="Ten plus APIs built">10+</span>
+            <span class="stat-card__label">APIs Built</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-card__value" aria-label="Three cloud deployments">3</span>
+            <span class="stat-card__label">Cloud Deploys</span>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =====================
+         SECTION 1 — EXPERIENCE
+    ===================== -->
+    <section id="experience" class="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <header class="section-header">
+          <h2 class="section-title" id="experience-heading">
+            <span class="section-title__prefix" aria-hidden="true">01 /</span>
+            Professional Experience
+          </h2>
+          <p class="section-subtitle">My journey building production systems at scale.</p>
+        </header>
+
+        <div class="experience__list">
+          <!-- Ministry of Environment of Indonesia -->
+          <article class="exp-item">
+            <div class="exp-item__header">
+              <h3 class="exp-item__company">Kementerian Lingkungan Hidup</h3>
+              <span class="exp-item__date">Jul 2024 — Present</span>
+            </div>
+            <p class="exp-item__role">Fullstack Developer (Team Leader Development Division)</p>
+            <ul class="exp-item__bullets">
+              <li>Leading the development and maintenance of the AMDALNET ecosystem.</li>
+              <li>Managing AMDALNET database and providing technical guidance for system outreach.</li>
+            </ul>
+          </article>
+
+          <!-- Digital Amoeba by Telkom Indonesia -->
+          <article class="exp-item">
+            <div class="exp-item__header">
+              <h3 class="exp-item__company">Digital Amoeba by Telkom Indonesia</h3>
+              <span class="exp-item__date">Feb 2023 — Jun 2023</span>
+            </div>
+            <p class="exp-item__role">Back End Developer</p>
+            <ul class="exp-item__bullets">
+              <li>Built a Real-time Chat feature using MQTT, MongoDB, and MySQL with group/user messaging.</li>
+              <li>Implemented Bruteforce Blocking and multi-stage registration with email/OAuth authentication.</li>
+              <li>Architected image upload systems using R2 Cloud Storage, S3, and Queue Jobs.</li>
+              <li>Optimized API load times and executed large-scale data migrations between database tables.</li>
+            </ul>
+          </article>
+
+          <!-- CV. Trisya Media Teknologi -->
+          <article class="exp-item">
+            <div class="exp-item__header">
+              <h3 class="exp-item__company">CV. Trisya Media Teknologi (Tupai Tech)</h3>
+              <span class="exp-item__date">Feb 2022 — Apr 2022</span>
+            </div>
+            <p class="exp-item__role">Back End Developer</p>
+            <ul class="exp-item__bullets">
+              <li>Developed a web-based financial recording system for enterprise clients.</li>
+              <li>Built backend contact and news features for the PT Global Cipta Niaga project.</li>
+            </ul>
+          </article>
+
+          <!-- Freelance -->
+          <article class="exp-item">
+            <div class="exp-item__header">
+              <h3 class="exp-item__company">Freelance Projects</h3>
+              <span class="exp-item__date">Jun 2022 — Present</span>
+            </div>
+            <p class="exp-item__role">Fullstack Developer</p>
+            <ul class="exp-item__bullets">
+              <li>Collaborated as a Fullstack Developer at the Kementerian Agama.</li>
+              <li>Developed complex systems including Expert Systems (AHP/SAW/Decision Tree) and Corporate ERPs.</li>
+              <li>Built custom management systems (Meeting Minutes, Clinic Registration, Letter Management).</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================
+         SECTION 2 — PROJECTS
+    ===================== -->
+    <section id="projects" class="projects" aria-labelledby="projects-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <h2 class="section-title" id="projects-heading">
+            <span class="section-title__prefix" aria-hidden="true">02 /</span>
+            Featured Projects
+          </h2>
+          <p class="section-subtitle">Production systems I've architected and shipped.</p>
+        </header>
+
+        <div class="projects__grid">
+
+          <!-- Project 1: Amdalnet-Pertek API -->
+          <article class="project-card" aria-labelledby="project-1-title">
+            <div class="project-card__header">
+              <div class="project-card__meta">
+                <span class="project-card__number" aria-hidden="true">01</span>
+                <div class="project-card__tags" aria-label="Technologies used">
+                  <span class="tag">Go / Echo</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Docker</span>
+                  <span class="tag">AWS</span>
+                </div>
+              </div>
+              <a href="https://github.com/DandunGP" target="_blank" rel="noopener noreferrer" class="project-card__link"
+                aria-label="View Amdalnet Pertek API on GitHub">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M1 15L15 1M15 1H6M15 1V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-card__title" id="project-1-title">Amdalnet-Pertek API</h3>
+
+            <div class="project-card__star">
+              <p class="project-card__desc">
+                <strong class="star-label">S:</strong> Ministry of Environment needed a digital platform
+                to handle environmental technical approval workflows (AMDAL/B3).
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">T:</strong> Architect and build a multi-service REST API
+                handling document generation, multi-role approval workflows, and CI/CD.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">A:</strong> Built with Go + Echo, PostgreSQL multi-schema,
+                LibreOffice-based PDF generation, and GitLab CI/CD pipeline for auto-deployment.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">R:</strong> Delivered a fully automated approval system
+                replacing 100% manual paper-based processes.
+              </p>
+            </div>
+
+            <figure class="project-card__arch">
+              <pre class="arch-diagram" id="arch-1" aria-label="Architecture diagram"><code>Client → [Echo Router] → Service Layer
+                            ↓
+                    [PostgreSQL / Multi-schema]
+                            ↓
+                    [LibreOffice PDF Engine]
+                            ↓
+                [GitLab CI/CD → AWS EC2]</code></pre>
+              <figcaption class="sr-only">Diagram arsitektur sistem AMDALNET menggunakan Go dan AWS.</figcaption>
+            </figure>
+          </article>
+
+          <!-- Project 2: Pharmacy Inventory System -->
+          <article class="project-card" aria-labelledby="project-2-title">
+            <div class="project-card__header">
+              <div class="project-card__meta">
+                <span class="project-card__number" aria-hidden="true">02</span>
+                <div class="project-card__tags" aria-label="Technologies used">
+                  <span class="tag">Laravel</span>
+                  <span class="tag">MySQL</span>
+                  <span class="tag">Redis</span>
+                  <span class="tag">Docker</span>
+                </div>
+              </div>
+              <a href="https://github.com/DandunGP" target="_blank" rel="noopener noreferrer" class="project-card__link"
+                aria-label="View Pharmacy System on GitHub">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M1 15L15 1M15 1H6M15 1V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-card__title" id="project-2-title">Pharmacy Inventory System</h3>
+
+            <div class="project-card__star">
+              <p class="project-card__desc">
+                <strong class="star-label">S:</strong> Hospital pharmacy lacked a consolidated
+                system for managing multi-item medicine batches and invoice tracking.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">T:</strong> Build a batch-aware supply management
+                system with dynamic row handling and consolidated invoice generation.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">A:</strong> Implemented a Laravel repository-service
+                pattern with Redis caching for frequent queries and transactional DB writes.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">R:</strong> Reduced invoice processing time by ~70%
+                and eliminated batch reconciliation errors.
+              </p>
+            </div>
+
+            <figure class="project-card__arch">
+              <pre class="arch-diagram" id="arch-2" aria-label="Architecture diagram"><code>HTTP → [Controller] → [Service] → [Repository]
+                                              ↓
+                                    [MySQL Transaction]
+                              ↑
+                      [Redis Cache Layer]</code></pre>
+              <figcaption class="sr-only">Diagram alur Repository-Service pattern dengan Redis caching.</figcaption>
+            </figure>
+          </article>
+
+          <!-- Project 3: Music Request System -->
+          <article class="project-card" aria-labelledby="project-3-title">
+            <div class="project-card__header">
+              <div class="project-card__meta">
+                <span class="project-card__number" aria-hidden="true">03</span>
+                <div class="project-card__tags" aria-label="Technologies used">
+                  <span class="tag">Express.js</span>
+                  <span class="tag">PostgreSQL</span>
+                  <span class="tag">Flutter</span>
+                  <span class="tag">JWT</span>
+                </div>
+              </div>
+              <a href="https://github.com/DandunGP" target="_blank" rel="noopener noreferrer" class="project-card__link"
+                aria-label="View Akadku Music Request System on GitHub">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                  <path d="M1 15L15 1M15 1H6M15 1V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+
+            <h3 class="project-card__title" id="project-3-title">Akadku — Music Request System</h3>
+
+            <div class="project-card__star">
+              <p class="project-card__desc">
+                <strong class="star-label">S:</strong> Restaurant outlets needed a real-time
+                music request system for guests with multi-outlet and multi-role management.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">T:</strong> Design a multi-tenant REST API serving
+                a Flutter mobile app with outlet-specific menu structures and order variants.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">A:</strong> Architected multi-tenant schema with
+                PostgreSQL, JWT auth, and a Seeder system for consistent test data across environments.
+              </p>
+              <p class="project-card__desc">
+                <strong class="star-label">R:</strong> System operational across 4 outlets
+                with 5+ concurrent users, zero data-isolation issues.
+              </p>
+            </div>
+
+            <figure class="project-card__arch">
+              <pre class="arch-diagram" id="arch-3" aria-label="Architecture diagram"><code>Flutter App → [Express Router] → [JWT Middleware]
+                                        ↓
+                              [Multi-tenant Service]
+                                        ↓
+                              [PostgreSQL / Per-outlet schema]</code></pre>
+              <figcaption class="sr-only">Diagram arsitektur multi-tenant dengan JWT authentication.</figcaption>
+            </figure>
+          </article>
+
+        </div><!-- /.projects__grid -->
+      </div><!-- /.container -->
+    </section>
+
+    <!-- =====================
+         SECTION 3 — STACK
+    ===================== -->
+    <section id="stack" class="stack" aria-labelledby="stack-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <h2 class="section-title" id="stack-heading">
+            <span class="section-title__prefix" aria-hidden="true">03 /</span>
+            Tech Stack
+          </h2>
+          <p class="section-subtitle">Tools I use to build and ship production systems.</p>
+        </header>
+
+        <div class="stack__groups">
+
+          <div class="stack__group">
+            <h3 class="stack__group-title">
+              <svg class="stack__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="1" y="1" width="14" height="14" rx="2" stroke="currentColor" stroke-width="1.5" />
+                <path d="M5 8h6M8 5v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+              Backend
+            </h3>
+            <div class="stack__tags" aria-label="Backend technologies">
+              <span class="tag tag--primary">Go</span>
+              <span class="tag tag--primary">JavaScript</span>
+              <span class="tag tag--primary">Python</span>
+              <span class="tag tag--primary">PHP</span>
+              <span class="tag tag--primary">Java</span>
+              <span class="tag">Echo</span>
+              <span class="tag">Express.js</span>
+              <span class="tag">Laravel</span>
+              <span class="tag">CodeIgniter</span>
+            </div>
+          </div>
+
+          <div class="stack__group">
+            <h3 class="stack__group-title">
+              <svg class="stack__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M1 4h14M1 8h14M1 12h14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+              </svg>
+              Database
+            </h3>
+            <div class="stack__tags" aria-label="Database technologies">
+              <span class="tag tag--primary">PostgreSQL</span>
+              <span class="tag tag--primary">MySQL</span>
+              <span class="tag tag--primary">Redis</span>
+              <span class="tag">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="stack__group">
+            <h3 class="stack__group-title">
+              <svg class="stack__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M8 1L15 5v6l-7 4L1 11V5l7-4z" stroke="currentColor" stroke-width="1.5"
+                  stroke-linejoin="round" />
+              </svg>
+              Infrastructure
+            </h3>
+            <div class="stack__tags" aria-label="Infrastructure technologies">
+              <span class="tag tag--primary">Docker</span>
+              <span class="tag tag--primary">AWS</span>
+              <span class="tag">GitLab CI/CD</span>
+              <span class="tag">Git</span>
+            </div>
+          </div>
+
+          <div class="stack__group">
+            <h3 class="stack__group-title">
+              <svg class="stack__icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <rect x="1" y="3" width="14" height="10" rx="2" stroke="currentColor" stroke-width="1.5" />
+                <path d="M4 7l3 3 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              Frontend
+            </h3>
+            <div class="stack__tags" aria-label="Frontend technologies">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">Vue.js</span>
+              <span class="tag">React.js</span>
+              <span class="tag">Tailwind CSS</span>
+            </div>
+          </div>
+
+        </div><!-- /.stack__groups -->
+      </div><!-- /.container -->
+    </section>
+
+    <!-- =====================
+         SECTION 4 — SYSTEM MONITOR
+    ===================== -->
+    <section id="monitor" class="monitor" aria-labelledby="monitor-heading">
+      <div class="container">
+
+        <header class="section-header">
+          <h2 class="section-title" id="monitor-heading">
+            <span class="section-title__prefix" aria-hidden="true">04 /</span>
+            System Health
+          </h2>
+          <p class="section-subtitle">This portfolio is a live system. Here's its status.</p>
+        </header>
+
+        <div class="monitor__dashboard" role="status" aria-live="polite" aria-label="System health metrics">
+
+          <article class="monitor__card" aria-labelledby="metric-uptime">
+            <div class="monitor__metric">
+              <span class="monitor__value" id="metric-uptime" data-target="90.2">0</span>
+              <span class="monitor__unit">%</span>
+            </div>
+            <span class="monitor__label">Uptime</span>
+            <span class="monitor__indicator monitor__indicator--ok" aria-label="Status: operational">●
+              Operational</span>
+          </article>
+
+          <article class="monitor__card" aria-labelledby="metric-response">
+            <div class="monitor__metric">
+              <span class="monitor__value" id="metric-response" data-target="25">0</span>
+              <span class="monitor__unit">ms</span>
+            </div>
+            <span class="monitor__label">Response Time</span>
+            <span class="monitor__indicator monitor__indicator--ok" aria-label="Status: optimal">● Optimal</span>
+          </article>
+
+          <article class="monitor__card" aria-labelledby="metric-env">
+            <div class="monitor__metric monitor__metric--text">
+              <span class="monitor__value-text" id="metric-env">Docker</span>
+            </div>
+            <span class="monitor__label">Environment</span>
+            <span class="monitor__indicator monitor__indicator--ok" aria-label="Status: containerized">●
+              Containerized</span>
+          </article>
+
+          <article class="monitor__card" aria-labelledby="metric-cloud">
+            <div class="monitor__metric monitor__metric--text">
+              <span class="monitor__value-text" id="metric-cloud">AWS</span>
+            </div>
+            <span class="monitor__label">Platform</span>
+            <span class="monitor__indicator monitor__indicator--ok" aria-label="Status: deployed">● Deployed</span>
+          </article>
+
+        </div><!-- /.monitor__dashboard -->
+
+        <!-- Terminal-style log -->
+        <div class="terminal" role="log" aria-label="System log output" aria-live="polite">
+          <div class="terminal__header" aria-hidden="true">
+            <span class="terminal__dot terminal__dot--red"></span>
+            <span class="terminal__dot terminal__dot--yellow"></span>
+            <span class="terminal__dot terminal__dot--green"></span>
+            <span class="terminal__title">system.log</span>
+          </div>
+          <div class="terminal__body" id="terminalLog">
+            <p class="terminal__line"><span class="terminal__prompt">$</span> <span class="terminal__cmd">docker
+                ps</span></p>
+          </div>
+        </div>
+
+      </div><!-- /.container -->
+    </section>
+
+  </main>
+
+  <!-- =====================
+       FOOTER / CONTACT
+  ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer__inner">
+
+      <address class="footer__contact">
+        <p class="footer__name">Dandun Gigih Prakoso</p>
+        <p class="footer__title">Backend Developer — Indonesia</p>
+      </address>
+
+      <nav class="footer__links" aria-label="Contact and social links">
+        <a href="mailto:dandungigihprakoso@gmail.com" class="footer__link" aria-label="Send email to Dandun">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path d="M1 4a2 2 0 012-2h12a2 2 0 012 2v10a2 2 0 01-2 2H3a2 2 0 01-2-2V4z" stroke="currentColor"
+              stroke-width="1.5" />
+            <path d="M1 4l8 7 8-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+          </svg>
+          Email
+        </a>
+        <a href="https://github.com/DandunGP" target="_blank" rel="noopener noreferrer" class="footer__link"
+          aria-label="Visit Dandun's GitHub profile">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <path
+              d="M9 1C4.58 1 1 4.58 1 9a8 8 0 005.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.22.48-2.69-1.07-2.69-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.05-.49.05-.49.8.06 1.22.82 1.22.82.71 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.77-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.67 7.67 0 014 0c1.53-1.03 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.19c0 .21.15.46.55.38A8.01 8.01 0 0017 9c0-4.42-3.58-8-8-8z"
+              stroke="currentColor" stroke-width="1.2" fill="none" />
+          </svg>
+          GitHub
+        </a>
+        <a href="https://linkedin.com/in/dandungigihprakoso" target="_blank" rel="noopener noreferrer"
+          class="footer__link" aria-label="Connect with Dandun on LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+            <rect x="1" y="1" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5" />
+            <path d="M5 7v6M5 4.5v.5M8 7v6M8 10c0-1.7 1-3 3-3s3 1.3 3 3v3" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" />
+          </svg>
+          LinkedIn
+        </a>
+      </nav>
+
+      <p class="footer__copy">
+        <small>© 2024 Dandun Gigih Prakoso. Crafted with semantic HTML5 & modern CSS.</small>
+      </p>
+
+    </div><!-- /.footer__inner -->
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
